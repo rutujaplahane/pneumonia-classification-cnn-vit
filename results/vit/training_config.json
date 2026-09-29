@@ -1,0 +1,20 @@
+{
+  "model": "ViT-B/16",
+  "pretraining": "ImageNet-1K torchvision default weights",
+  "image_size": 224,
+  "batch_size": 16,
+  "max_epochs": 15,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "loss": "BCEWithLogitsLoss",
+  "pos_weight": 3.4386882129277567,
+  "model_selection_metric": "validation ROC-AUC",
+  "threshold_selection": "maximum validation F1",
+  "early_stopping_patience": 3,
+  "lr_scheduler": "ReduceLROnPlateau",
+  "lr_patience": 1,
+  "lr_factor": 0.5,
+  "mixed_precision": true,
+  "seed": 42
+}

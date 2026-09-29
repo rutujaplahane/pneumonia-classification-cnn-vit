@@ -1,0 +1,6 @@
+{
+  "threshold": 0.5700000000000001,
+  "selection_metric": "validation F1",
+  "best_epoch": 3,
+  "best_validation_roc_auc": 0.8783648218763562
+}

@@ -1,0 +1,16 @@
+metric,value
+best_epoch,2.0
+validation_loss,0.6865014465650915
+validation_roc_auc,0.8777116458391578
+validation_average_precision,0.7029127261329319
+selected_threshold,0.6
+validation_accuracy,0.8286285286035473
+validation_balanced_accuracy,0.7867952259159658
+validation_precision_ppv,0.6013133208255159
+validation_recall_sensitivity,0.7106430155210643
+validation_specificity,0.8629474363108675
+validation_npv,0.9111338100102145
+validation_f1,0.6514227642276422
+validation_mcc,0.5421575244484241
+validation_brier_score,0.14700516564411498
+total_training_minutes,3.337957835197449

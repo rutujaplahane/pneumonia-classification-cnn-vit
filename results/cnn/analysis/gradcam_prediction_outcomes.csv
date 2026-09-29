@@ -1,0 +1,5 @@
+outcome,patientId,true_label,predicted_probability,decision_threshold,prediction,ground_truth_boxes
+True Positive,d667579e-aa2d-461e-a869-4799ad466add,1,0.9966,0.6,1,2
+True Negative,af8b563a-6874-45b6-b1fa-8c047177a7aa,0,0.00399,0.6,0,0
+False Positive,e6e4c1a3-7efd-4ee3-b955-8e3ed9176972,0,0.989,0.6,1,0
+False Negative,2dce719f-1702-406f-a471-03f033f1822a,1,0.01513,0.6,0,1

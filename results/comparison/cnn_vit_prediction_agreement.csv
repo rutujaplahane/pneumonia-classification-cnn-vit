@@ -1,0 +1,6 @@
+metric,value
+prediction_agreement_rate,0.9043217586809893
+both_correct,0.7716712465650762
+cnn_only_correct,0.055458406195353485
+vit_only_correct,0.04021983512365726
+both_incorrect,0.13265051211591306

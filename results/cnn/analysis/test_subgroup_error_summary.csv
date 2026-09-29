@@ -1,0 +1,4 @@
+detailed_class,samples,target_positive,predicted_positive,correct,errors,error_rate
+Lung Opacity,902,902,652,652,250,0.2771618625277162
+No Lung Opacity / Not Normal,1780,0,435,1345,435,0.2443820224719101
+Normal,1321,0,7,1314,7,0.005299015897047691

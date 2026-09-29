@@ -1,0 +1,7 @@
+detailed_class,samples,errors,error_rate,model
+Lung Opacity,902,250,0.2771618625277162,CNN (DenseNet121)
+No Lung Opacity / Not Normal,1780,435,0.2443820224719101,CNN (DenseNet121)
+Normal,1321,7,0.005299015897047691,CNN (DenseNet121)
+Lung Opacity,902,200,0.22172949002217296,ViT-B/16
+No Lung Opacity / Not Normal,1780,544,0.3056179775280899,ViT-B/16
+Normal,1321,9,0.006813020439061317,ViT-B/16

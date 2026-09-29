@@ -1,0 +1,2 @@
+best_epoch,validation_roc_auc,selected_threshold,validation_f1_at_selected_threshold
+3,0.8783648218763562,0.5700000000000001,0.646125116713352

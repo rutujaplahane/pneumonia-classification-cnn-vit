@@ -1,0 +1,5 @@
+{
+  "threshold": 0.6,
+  "selection_set": "validation",
+  "selection_metric": "F1"
+}

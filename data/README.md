@@ -2,13 +2,11 @@
 
 This project uses the **RSNA Pneumonia Detection Challenge** dataset.
 
-The original dataset contains chest X-ray images in DICOM format and associated
-patient-level labels. The raw DICOM images are not included in this repository
-because of their size.
+The original dataset contains de-identified chest X-ray images in DICOM format together with patient-level labels and pneumonia annotations. The raw DICOM images and original RSNA annotation files are **not included in this repository**.
 
 ## Dataset
 
-Source: RSNA Pneumonia Detection Challenge (Kaggle)
+**Source:** RSNA Pneumonia Detection Challenge, hosted on Kaggle.
 
 The classification dataset used in this project contains:
 
@@ -32,13 +30,26 @@ A stratified patient-level split was used:
 
 There is no patient overlap between the training, validation, and test sets.
 
-The CSV files in this directory contain the patient IDs and labels used for
-each split.
+The split CSV files in this repository contain the patient IDs and classification labels used to reproduce the experimental split. They are derived from the RSNA Pneumonia Detection Challenge annotations and remain subject to the applicable dataset terms and attribution requirements.
 
 ## Raw Data
 
-Raw DICOM images are intentionally excluded from this repository.
+Raw DICOM images and the original RSNA annotation files are intentionally excluded from this repository.
 
-Download the RSNA Pneumonia Detection Challenge dataset from Kaggle and place
-the images in the appropriate local data directory before running the training
-pipeline.
+Users should obtain the dataset directly from the **RSNA Pneumonia Detection Challenge** through the official RSNA or Kaggle distribution pages and agree to the applicable terms of use before using the data.
+
+## Dataset Attribution
+
+The RSNA Pneumonia Detection Challenge dataset is derived from the **NIH Chest X-ray Dataset**, with pneumonia annotations developed for the RSNA Pneumonia Detection Challenge.
+
+The **NIH Clinical Center** is acknowledged as the provider of the original chest X-ray dataset.
+
+Please cite the following works when using the dataset:
+
+1. X. Wang, Y. Peng, L. Lu, Z. Lu, M. Bagheri, and R. M. Summers, “ChestX-ray8: Hospital-scale chest X-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases,” *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, pp. 3462–3471, 2017.
+
+2. G. Shih et al., “Augmenting the National Institutes of Health Chest Radiograph Dataset with Expert Annotations of Possible Pneumonia,” *Radiology: Artificial Intelligence*, 2019, doi: 10.1148/ryai.2019180041.
+
+Use and redistribution of the dataset are governed by the **RSNA Pneumonia Detection Challenge Terms of Use and Attribution** and the applicable Kaggle competition rules.
+
+This repository contains project code, derived experimental splits, model predictions, metrics, and visualizations. It does not claim ownership of the original medical imaging dataset.
